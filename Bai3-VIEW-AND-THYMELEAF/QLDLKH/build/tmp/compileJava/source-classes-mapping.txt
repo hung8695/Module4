@@ -1,0 +1,12 @@
+com/hihi/model/Customer.java
+ com.hihi.model.Customer
+com/hihi/service/ICustomerService.java
+ com.hihi.service.ICustomerService
+com/hihi/configuration/AppInitializer.java
+ com.hihi.configuration.AppInitializer
+com/hihi/configuration/AppConfiguration.java
+ com.hihi.configuration.AppConfiguration
+com/hihi/service/CustomerService.java
+ com.hihi.service.CustomerService
+com/hihi/controller/CustomerController.java
+ com.hihi.controller.CustomerController

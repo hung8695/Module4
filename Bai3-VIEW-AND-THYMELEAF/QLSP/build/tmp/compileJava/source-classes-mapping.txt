@@ -1,0 +1,12 @@
+com/hihi/model/Product.java
+ com.hihi.model.Product
+com/hihi/service/IProductService.java
+ com.hihi.service.IProductService
+com/hihi/controller/ProductController.java
+ com.hihi.controller.ProductController
+com/hihi/configuration/AppInitializer.java
+ com.hihi.configuration.AppInitializer
+com/hihi/configuration/AppConfiguration.java
+ com.hihi.configuration.AppConfiguration
+com/hihi/service/ProductService.java
+ com.hihi.service.ProductService
