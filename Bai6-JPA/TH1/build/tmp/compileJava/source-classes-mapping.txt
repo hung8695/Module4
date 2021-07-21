@@ -1,0 +1,22 @@
+com/hihi/model/Customer.java
+ com.hihi.model.Customer
+com/hihi/service/IGeneralService.java
+ com.hihi.service.IGeneralService
+com/hihi/configuration/AppInitializer.java
+ com.hihi.configuration.AppInitializer
+com/hihi/repository/impl/GeneralRepositoryImpl.java
+ com.hihi.repository.impl.GeneralRepositoryImpl
+com/hihi/repository/IGeneralRepository.java
+ com.hihi.repository.IGeneralRepository
+com/hihi/controller/CustomerController.java
+ com.hihi.controller.CustomerController
+com/hihi/service/ICustomerService.java
+ com.hihi.service.ICustomerService
+com/hihi/service/impl/CustomerService.java
+ com.hihi.service.impl.CustomerService
+com/hihi/repository/ICustomerRepository.java
+ com.hihi.repository.ICustomerRepository
+com/hihi/configuration/AppConfig.java
+ com.hihi.configuration.AppConfig
+com/hihi/repository/impl/CustomerRepository.java
+ com.hihi.repository.impl.CustomerRepository
