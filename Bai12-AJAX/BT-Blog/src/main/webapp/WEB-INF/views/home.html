@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+       <script type="text/javascript">
+      //  function getAllBlog(){
+            $.ajax({
+                type:"GET",
+                url:"http://localhost:8080/api/blogs",
+                success: function (data){
+
+                    let content = "<tr>" +"<td>Title</td>"+
+                        "<td>Content</td>"+
+                        "<td>Author</td>"+
+                        "<td>Date</td>"+
+                        +"</tr>";
+                    for (let i = 0; i < data.length; i++) {
+                        content += "<tr>"
+    +"<td>"+data[i].title+"</td>"
+    +"<td>"+data[i].content+"</td>"
+    +"<td>"+data[i].author+"</td>"
+    +"<td>"+data[i].date+"</td>"
+    +"</tr>";
+                    }
+
+    document.getElementById('blogList').innerHTML = content;
+                }
+            });
+       // }
+
+    </script>
+
+</head>
+<body>
+<form id = "search">
+    <input type="text" id="searchValue">
+    <input type="submit" value="Search">
+</form>
+
+<table id="blogList" border="1">
+</table>
+</body>
+</html>
